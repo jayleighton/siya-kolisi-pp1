@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    /* color: #3a3a3a; */
+    color: #F5F7F8;
     font-family: 'Lato', sans-serif;
 
 }
@@ -88,9 +88,12 @@ nav {
 /* Main Content Styling */
 
 main {
-    background-color: red;
+    /* background-color: #FFB000; */
+    background-color: #F5F5DC;
     flex: 1 0 auto;
     margin-top: 47px;
+    color: #000000;
+
 }
 
 
