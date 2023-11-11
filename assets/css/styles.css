@@ -39,11 +39,13 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1,
+h2 {
     font-family: Oswald,
         sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #menu {
@@ -96,6 +98,45 @@ main {
 
 }
 
+#introduction img {
+    width: 100%;
+}
+
+#intro-container {
+    /* display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap; */
+
+
+}
+
+/* #intro-container p {
+    margin-top: 20px;
+} */
+
+#intro-part-1 {
+
+    margin: 10px;
+
+
+}
+
+#intro-part-2 {
+
+
+    margin: 10px;
+
+
+}
+
+#more-info {
+    background-color: #000000;
+    color: #F5F5DC;
+    margin-top: 20px;
+
+}
 
 /* Footer styling */
 
