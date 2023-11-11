@@ -20,6 +20,7 @@ body {
 
 }
 
+/* Header styling */
 header {
     background-color: #004225;
     z-index: 99;
@@ -30,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 2px #F5F5DC;
+    align-items: baseline;
 }
 
 header a {
@@ -44,11 +46,92 @@ h1 {
     letter-spacing: 2px;
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu>li {
+    margin-bottom: 0.5em;
+
+}
+
+nav {
+    position: absolute;
+    background-color: #004225;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 1rem;
+    left: 0;
+    top: 100%;
+    box-shadow: 0 2px 2px #F5F5DC;
+    display: none;
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
+
+}
+
+
+.navbar-toggle-label {
+    font-size: 2rem;
+}
+
+#navbar-toggle {
+    display: none;
+}
+
+
+
+/* Main Content Styling */
+
 main {
     background-color: red;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
+
+
+/* Footer styling */
 
 footer {
     background-color: yellow;
+}
+
+
+/* Media querty: tablets and larger screens */
+@media screen and (min-width: 768px) {
+
+    .navbar-toggle-label {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    #title {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 75px;
+    }
 }
