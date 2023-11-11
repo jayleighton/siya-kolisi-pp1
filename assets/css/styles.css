@@ -97,7 +97,24 @@ main {
 /* Footer styling */
 
 footer {
-    background-color: yellow;
+    background-color: #004225;
+    border-top: 1.8px solid #F5F5DC;
+
+}
+
+#social-network-links {
+    color: #F5F7F8;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#social-network-links i {
+    font-size: 130%;
+    padding: 5%;
+    color: #F5F7F8;
 }
 
 
