@@ -85,8 +85,6 @@ nav {
     display: none;
 }
 
-
-
 /* Main Content Styling */
 
 main {
@@ -95,7 +93,6 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     color: #000000;
-
 }
 
 #introduction img {
@@ -103,39 +100,56 @@ main {
 }
 
 #intro-container {
-    /* display: flex;
+    width: 85%;
+    display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 100%;
-    flex-wrap: wrap; */
-
-
+    margin: auto auto;
 }
 
-/* #intro-container p {
-    margin-top: 20px;
-} */
-
-#intro-part-1 {
-
-    margin: 10px;
-
-
+#intro-container p {
+    margin: 5px 15px;
 }
 
-#intro-part-2 {
-
-
-    margin: 10px;
-
-
+#early-life-link {
+    background: url("../images/TELEMMGLPICT000165675713_trans_NvBQzQNjv4Bq-wioWl5aH7fAEJ8IWJw2Y29B1LEDEnWrF26oEaqVPuY.jpeg") no-repeat center /cover;
+    width: 90%;
+    height: 200px;
+    max-height: 400px;
+    margin: auto auto;
 }
 
-#more-info {
-    background-color: #000000;
-    color: #F5F5DC;
-    margin-top: 20px;
+#professional-link {
+    background: url("../images/siya-wp.webp") no-repeat center/cover;
+    width: 90%;
+    height: 200px;
+    max-height: 400px;
+    margin: auto auto;
+}
 
+#international-link {
+    background: url("../images/int-career.webp") no-repeat center/cover;
+    height: 200px;
+    width: 90%;
+    margin: auto auto;
+}
+
+#early-life-link>div, #professional-link>div,
+#international-link>div {
+    position: absolute;
+    background-color: #3a3a3a;
+    opacity: 0.6;
+    height: 50px;
+    width: 100px;
+    right: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#early-life-link a, #professional-link a, #international-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
 }
 
 /* Footer styling */
