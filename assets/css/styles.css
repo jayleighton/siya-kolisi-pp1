@@ -116,6 +116,7 @@ main {
     height: 200px;
     max-height: 400px;
     margin: auto auto;
+    border: 1px solid #ffffff;
 }
 
 #professional-link {
@@ -124,6 +125,7 @@ main {
     height: 200px;
     max-height: 400px;
     margin: auto auto;
+    border: 1px solid #ffffff;
 }
 
 #international-link {
@@ -131,6 +133,7 @@ main {
     height: 200px;
     width: 90%;
     margin: auto auto;
+    border: 1px solid #ffffff;
 }
 
 #early-life-link>div, #professional-link>div,
