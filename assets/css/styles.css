@@ -88,7 +88,6 @@ nav {
 /* Main Content Styling */
 
 main {
-    /* background-color: #FFB000; */
     background-color: #F5F5DC;
     flex: 1 0 auto;
     margin-top: 47px;
@@ -100,45 +99,47 @@ main {
 }
 
 #intro-container {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: auto auto;
+    
 }
 
 #intro-container p {
     margin: 5px 15px;
 }
 
-#early-life-link {
-    background: url("../images/TELEMMGLPICT000165675713_trans_NvBQzQNjv4Bq-wioWl5aH7fAEJ8IWJw2Y29B1LEDEnWrF26oEaqVPuY.jpeg") no-repeat center /cover;
-    width: 90%;
-    height: 200px;
-    max-height: 400px;
-    margin: auto auto;
-    border: 1px solid #ffffff;
+#early-life-link img{
+    border: 1px solid #ffffff; 
+    width: 100%;
+    
 }
 
-#professional-link {
-    background: url("../images/siya-wp.webp") no-repeat center/cover;
-    width: 90%;
-    height: 200px;
-    max-height: 400px;
-    margin: auto auto;
-    border: 1px solid #ffffff;
+#professional-link img {
+    border: 1px solid #ffffff; 
+    width: 100%;
 }
 
-#international-link {
-    background: url("../images/int-career.webp") no-repeat center/cover;
-    height: 200px;
-    width: 90%;
-    margin: auto auto;
+#international-link img {
     border: 1px solid #ffffff;
+    width: 100%;
 }
 
-#early-life-link>div, #professional-link>div,
-#international-link>div {
-    position: absolute;
+.full-length-header {
+    background-color: #004225;
+    width: 100%;
+    text-align: center;
+} 
+
+.info-link {
+    color: #F5F5DC;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#professional-link>div {
+
+    /* position: absolute;
     background-color: #3a3a3a;
     opacity: 0.6;
     height: 50px;
@@ -146,13 +147,28 @@ main {
     right: 20px;
     text-align: center;
     padding-top: 5px;
+    bottom: 230px; */
+
+}
+
+#international-link>div {
+    /* position: absolute;
+        background-color: #3a3a3a;
+        opacity: 0.6;
+        height: 50px;
+        width: 100px;
+        right: 20px;
+        text-align: center;
+        padding-top: 5px;
+        bottom: 30px; */
+
 }
 
 #early-life-link a, #professional-link a, #international-link a {
-    color: #ffffff;
+    /* color: #ffffff;
     text-decoration: none;
     font-size: 100%;
-    font-weight: bold;
+    font-weight: bold; */
 }
 
 /* Footer styling */
@@ -178,6 +194,21 @@ footer {
     color: #F5F7F8;
 }
 
+#more-info {
+    position: relative;
+}
+
+
+/* Media query for larger mobile screens */
+
+@media screen and (min-width: 350px) {
+
+    #early-life-link, #professional-link, #international-link {
+        width: 100%;
+        
+    }
+    
+}
 
 /* Media querty: tablets and larger screens */
 @media screen and (min-width: 768px) {
