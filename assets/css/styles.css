@@ -112,17 +112,20 @@ main {
 #early-life-link img{
     border: 1px solid #ffffff; 
     width: 100%;
+    background-color: #004225;
     
 }
 
 #professional-link img {
     border: 1px solid #ffffff; 
     width: 100%;
+    background-color: #004225;
 }
 
 #international-link img {
     border: 1px solid #ffffff;
     width: 100%;
+    background-color: #004225;
 }
 
 .full-length-header {
@@ -135,40 +138,6 @@ main {
     color: #F5F5DC;
     text-decoration: none;
     font-size: 110%;
-}
-
-#professional-link>div {
-
-    /* position: absolute;
-    background-color: #3a3a3a;
-    opacity: 0.6;
-    height: 50px;
-    width: 100px;
-    right: 20px;
-    text-align: center;
-    padding-top: 5px;
-    bottom: 230px; */
-
-}
-
-#international-link>div {
-    /* position: absolute;
-        background-color: #3a3a3a;
-        opacity: 0.6;
-        height: 50px;
-        width: 100px;
-        right: 20px;
-        text-align: center;
-        padding-top: 5px;
-        bottom: 30px; */
-
-}
-
-#early-life-link a, #professional-link a, #international-link a {
-    /* color: #ffffff;
-    text-decoration: none;
-    font-size: 100%;
-    font-weight: bold; */
 }
 
 /* Footer styling */
@@ -192,22 +161,6 @@ footer {
     font-size: 130%;
     padding: 5%;
     color: #F5F7F8;
-}
-
-#more-info {
-    position: relative;
-}
-
-
-/* Media query for larger mobile screens */
-
-@media screen and (min-width: 350px) {
-
-    #early-life-link, #professional-link, #international-link {
-        width: 100%;
-        
-    }
-    
 }
 
 /* Media querty: tablets and larger screens */
@@ -243,4 +196,63 @@ footer {
     main {
         margin-top: 75px;
     }
+
+    #more-info-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #early-life-link {
+        width: 70%;
+        border: none;
+        
+    }
+
+    #professional-link {
+        width: 70%;
+        border: none;
+    }
+
+    #international-link {
+        width: 70%;
+        border: none;
+    }
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 1200px) {
+    #intro-container > div{
+        width: 60%;
+        margin: auto auto;
+        line-height: 1.5rem;
+        
+    }
+
+    #more-info-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: no-wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        #early-life-link {
+            width: 60%;
+            border: none;
+    
+        }
+    
+        #professional-link {
+            width: 60%;
+            border: none;
+        }
+    
+        #international-link {
+            width: 60%;
+            border: none;
+        }
+    
 }
