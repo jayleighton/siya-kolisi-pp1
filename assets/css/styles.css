@@ -117,23 +117,11 @@ main {
     margin: 5px 15px;
 }
 
-#early-life-link img{
+#early-life-link img, #professional-link img, #international-link img {
     border: 1px solid #ffffff; 
     width: 100%;
     background-color: #004225;
     
-}
-
-#professional-link img {
-    border: 1px solid #ffffff; 
-    width: 100%;
-    background-color: #004225;
-}
-
-#international-link img {
-    border: 1px solid #ffffff;
-    width: 100%;
-    background-color: #004225;
 }
 
 .full-length-header {
@@ -155,17 +143,14 @@ hr {
     border: 1.5px solid #000000;
 }
 
-#el-info img {
+#el-info img, #pro-info img, #int-info img {
     width: 100%;
 }
 
-#pro-info img {
-    width: 100%;
-}
-
-#int-info img {
-    width:100%;
-}
+.reverse-color {
+        background-color: #004225;
+        color: #F5F7F8;
+    }
 
 /* Footer styling */
 
@@ -238,26 +223,15 @@ footer {
         align-items: center;
     }
     
-    #early-life-link {
+    #early-life-link, #professional-link, #international-link {
         width: 70%;
         border: none;
         
-    }
-
-    #professional-link {
-        width: 70%;
-        border: none;
-    }
-
-    #international-link {
-        width: 70%;
-        border: none;
     }
 
     /* Career page styling */
     #el-image, #pro-image, #int-image {
         width: 50%;
-        
     }
 
     #el-text, #int-text, #pro-text {
@@ -311,21 +285,11 @@ footer {
             align-items: center;
     }
     
-    #early-life-link {
+    #early-life-link, #professional-link, #international-link {
         width: 60%;
         border: none;
     }
     
-    #professional-link {
-        width: 60%;
-        border: none;
-    }
-    
-    #international-link {
-        width: 60%;
-        border: none;
-    }
-
     /* Career page styling */
     #el-image,
     #pro-image,
