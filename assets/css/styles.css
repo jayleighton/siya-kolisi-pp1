@@ -140,6 +140,20 @@ main {
     font-size: 110%;
 }
 
+/* Main content on Career page styling */
+
+#el-info img {
+    width: 100%;
+}
+
+#pro-info img {
+    width: 100%;
+}
+
+#int-info img {
+    width:100%;
+}
+
 /* Footer styling */
 
 footer {
