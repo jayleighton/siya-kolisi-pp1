@@ -142,6 +142,11 @@ main {
 
 /* Main content on Career page styling */
 
+hr {
+    margin-top: 15px;
+    border: 1.5px solid #000000;
+}
+
 #el-info img {
     width: 100%;
 }
