@@ -46,6 +46,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #menu {
@@ -94,8 +95,10 @@ main {
     color: #000000;
 }
 
+
 #introduction img {
     width: 100%;
+    
 }
 
 #intro-container {
@@ -216,11 +219,11 @@ footer {
         margin-top: 75px;
     }
 
-        #introduction {
-            width: 85%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    #introduction {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #more-info-container {
         display: flex;
@@ -245,6 +248,38 @@ footer {
         width: 70%;
         border: none;
     }
+
+    /* Career page styling */
+    #el-image, #pro-image, #int-image {
+        width: 50%;
+        
+    }
+
+    #el-text, #int-text, #pro-text {
+        width: 35%;
+    }
+
+    .reverse-color {
+        background-color: #004225;
+        color: #F5F7F8;
+    }
+
+    .two-column{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .two-column-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+    }
 }
 
 /* Media query for large screens */
@@ -253,6 +288,7 @@ footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     #intro-container > div{
@@ -284,6 +320,42 @@ footer {
         #international-link {
             width: 60%;
             border: none;
+        }
+
+        /* Career page styling */
+        #el-image,
+        #pro-image,
+        #int-image {
+            width: 40%;
+
+        }
+
+        #el-text,
+        #int-text,
+        #pro-text {
+            width: 25%;
+        }
+
+        .reverse-color {
+            background-color: #004225;
+            color: #F5F7F8;
+        }
+
+        .two-column {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+
+        .two-column-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
         }
     
 }
