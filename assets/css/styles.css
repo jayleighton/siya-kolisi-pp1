@@ -39,6 +39,11 @@ header a {
     color: inherit;
 }
 
+a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-size: 140%;
+}
+
 h1,
 h2 {
     font-family: Oswald,
@@ -294,7 +299,7 @@ footer {
     #intro-container > div{
         width: 60%;
         margin: auto auto;
-        line-height: 1.5rem;
+        font-size: 1.5rem;
         
     }
 
@@ -304,58 +309,58 @@ footer {
             flex-wrap: no-wrap;
             justify-content: space-around;
             align-items: center;
-        }
+    }
     
-        #early-life-link {
-            width: 60%;
-            border: none;
+    #early-life-link {
+        width: 60%;
+        border: none;
+    }
     
-        }
+    #professional-link {
+        width: 60%;
+        border: none;
+    }
     
-        #professional-link {
-            width: 60%;
-            border: none;
-        }
-    
-        #international-link {
-            width: 60%;
-            border: none;
-        }
+    #international-link {
+        width: 60%;
+        border: none;
+    }
 
-        /* Career page styling */
-        #el-image,
-        #pro-image,
-        #int-image {
-            width: 40%;
+    /* Career page styling */
+    #el-image,
+    #pro-image,
+    #int-image {
+        width: 40%;
 
-        }
+    }
 
-        #el-text,
-        #int-text,
-        #pro-text {
-            width: 25%;
-        }
+    #el-text,
+    #int-text,
+    #pro-text {
+        width: 25%;
+        font-size: 1.5rem;
+    }
 
-        .reverse-color {
-            background-color: #004225;
-            color: #F5F7F8;
-        }
+    .reverse-color {
+        background-color: #004225;
+        color: #F5F7F8;
+    }
 
-        .two-column {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-        }
+    .two-column {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
 
-        .two-column-reverse {
-            display: flex;
-            flex-direction: row-reverse;
-            align-items: center;
-            flex-wrap: nowrap;
-            justify-content: space-around;
+    .two-column-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
 
-        }
+    }
     
 }
