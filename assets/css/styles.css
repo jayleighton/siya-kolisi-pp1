@@ -54,6 +54,14 @@ h2 {
     margin-bottom: 10px;
 }
 
+h5 {
+    font-family: Oswald,
+            sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
 #menu {
     list-style-type: none;
     font-size: 110%;
@@ -103,32 +111,34 @@ main {
 
 #introduction img {
     width: 100%;
-    
+
 }
 
 #intro-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #intro-container p {
     margin: 5px 15px;
 }
 
-#early-life-link img, #professional-link img, #international-link img {
-    border: 1px solid #ffffff; 
+#early-life-link img,
+#professional-link img,
+#international-link img {
+    border: 1px solid #ffffff;
     width: 100%;
     background-color: #004225;
-    
+
 }
 
 .full-length-header {
     background-color: #004225;
     width: 100%;
     text-align: center;
-} 
+}
 
 .info-link {
     color: #F5F5DC;
@@ -143,14 +153,83 @@ hr {
     border: 1.5px solid #000000;
 }
 
-#el-info img, #pro-info img, #int-info img {
+#el-info img,
+#pro-info img,
+#int-info img {
     width: 100%;
 }
 
 .reverse-color {
-        background-color: #004225;
-        color: #F5F7F8;
-    }
+    background-color: #004225;
+    color: #F5F7F8;
+}
+
+/* Feedback form */
+#main-feedback {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-top: 47px;
+
+}
+
+#feedback {
+    background-image: url("../images/siya-int-career-info.jpg");
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    background-position: 10%;
+
+}
+
+#feedback-form {
+    color: #F5F7F8;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 15px 10px;
+    margin-top: 100px;
+}
+
+.text-input {
+    color: #F5F7F8;
+    background: transparent;
+    width: 100%;
+    height: 22px;
+    margin: 5px 0 15px 0;
+    border-radius: 4px;
+    border: 1px solid #F5F7F8;
+    padding: 0 5px;
+    
+}
+
+.multi-line-text-input {
+    color: #F5F7F8;
+    background: transparent;
+    width: 100%;
+    margin: 5px 0 15px 0;
+    border-radius: 4px;
+    border: 1px solid #F5F7F8;
+    padding: 0 5px;
+}
+
+.radio-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type="submit"] {
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    color: #F5F7F8;
+    /* background: transparent; */
+    background-color: #004225;
+    margin: 5px 0 15px 0;
+    border-radius: 4px;
+    border: 1px solid #F5F7F8;
+    padding: 0 5px;
+    
+}
 
 /* Footer styling */
 
@@ -222,19 +301,25 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
-    
-    #early-life-link, #professional-link, #international-link {
+
+    #early-life-link,
+    #professional-link,
+    #international-link {
         width: 70%;
         border: none;
-        
+
     }
 
     /* Career page styling */
-    #el-image, #pro-image, #int-image {
+    #el-image,
+    #pro-image,
+    #int-image {
         width: 50%;
     }
 
-    #el-text, #int-text, #pro-text {
+    #el-text,
+    #int-text,
+    #pro-text {
         width: 35%;
     }
 
@@ -243,7 +328,7 @@ footer {
         color: #F5F7F8;
     }
 
-    .two-column{
+    .two-column {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -259,6 +344,11 @@ footer {
         justify-content: space-around;
 
     }
+
+    /* Feedback form styling */
+    .radio-button {
+        width: 30%;
+    }
 }
 
 /* Media query for large screens */
@@ -267,29 +357,31 @@ footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        
+
     }
 
-    #intro-container > div{
+    #intro-container>div {
         width: 60%;
         margin: auto auto;
         font-size: 1.5rem;
-        
+
     }
 
     #more-info-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: no-wrap;
-            justify-content: space-around;
-            align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        justify-content: space-around;
+        align-items: center;
     }
-    
-    #early-life-link, #professional-link, #international-link {
+
+    #early-life-link,
+    #professional-link,
+    #international-link {
         width: 60%;
         border: none;
     }
-    
+
     /* Career page styling */
     #el-image,
     #pro-image,
@@ -326,5 +418,5 @@ footer {
         justify-content: space-around;
 
     }
-    
+
 }
