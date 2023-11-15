@@ -54,10 +54,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-h5 {
+#feedback h5 {
     font-family: Oswald,
         sans-serif;
-    text-align: center;
+    text-align: left;
+    font-size: 100%;
     margin-bottom: 10px;
 
 }
@@ -400,6 +401,11 @@ footer {
     .feeback-button:hover {
         background-color: #F5F5DC;
         color: #004225;
+    }
+
+    #feedback h5 {
+        text-align: left;
+        font-size: 120%;
     }
 
 }
