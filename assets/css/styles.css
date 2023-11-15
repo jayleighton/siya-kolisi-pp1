@@ -56,7 +56,7 @@ h2 {
 
 h5 {
     font-family: Oswald,
-            sans-serif;
+        sans-serif;
     text-align: center;
     margin-bottom: 10px;
 
@@ -198,7 +198,7 @@ hr {
     border-radius: 4px;
     border: 1px solid #F5F7F8;
     padding: 0 5px;
-    
+
 }
 
 .multi-line-text-input {
@@ -217,18 +217,22 @@ hr {
     width: 100%;
 }
 
-input[type="submit"] {
+.feeback-button {
     text-align: center;
-    width: 100%;
-    height: 25px;
+    width: 80%;
     color: #F5F7F8;
-    /* background: transparent; */
     background-color: #004225;
-    margin: 5px 0 15px 0;
-    border-radius: 4px;
+    border-radius: 2px;
     border: 1px solid #F5F7F8;
-    padding: 0 5px;
-    
+    padding: 20px 15px 20px 15px;
+    font-size: 100%;
+    margin: 20px 10px 15px 25px;
+
+}
+
+.feeback-button:hover {
+    background-color: #F5F5DC;
+    color: #004225;
 }
 
 /* Footer styling */
@@ -346,9 +350,58 @@ footer {
     }
 
     /* Feedback form styling */
-    .radio-button {
-        width: 30%;
+    #feedback {
+        background-position: center;
+        position: relative;
     }
+    #feedback-form {
+        max-width: 400px;
+        position: absolute;
+        top: 30px;
+        right: 10%;
+    }
+
+    .radio-button {
+        width: 40%;
+        align-items: center;
+
+    }
+
+    
+
+    .feeback-button:hover {
+        background-color: #F5F5DC;
+        color: #004225;
+    }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 992px) {
+
+    #feedback {
+        background-position: center;
+        position: relative;
+    }
+
+    #feedback-form {
+        max-width: 500px;
+        position: absolute;
+        top: 30px;
+        right: 10%;
+    }
+
+    .feeback-button {
+        width: 50%;
+        padding: 25px 15px 25px 15px;
+        font-size: 100%;
+        margin: 20px 20px 30px 20px;
+    }
+
+    .feeback-button:hover {
+        background-color: #F5F5DC;
+        color: #004225;
+    }
+
 }
 
 /* Media query for large screens */
