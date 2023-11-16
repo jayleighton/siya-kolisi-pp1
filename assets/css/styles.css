@@ -322,7 +322,7 @@ footer {
     #more-info-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
     }
@@ -480,7 +480,7 @@ footer {
     #more-info-container {
         display: flex;
         flex-direction: column;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
     }
