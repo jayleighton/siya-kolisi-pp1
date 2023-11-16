@@ -236,6 +236,21 @@ hr {
     color: #004225;
 }
 
+
+/* Gallery page */
+#gallery-main {
+    background-color: #004225;
+}
+
+#images img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#images {
+    line-height: 0;
+}
+
 /* Footer styling */
 
 footer {
@@ -374,6 +389,13 @@ footer {
         background-color: #F5F5DC;
         color: #004225;
     }
+
+    /*  Gallery Page */
+         
+    #images {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query for medium screens */
@@ -423,6 +445,13 @@ footer {
     #feedback h5 {
         text-align: left;
         font-size: 120%;
+    }
+
+    /*  Gallery Page */
+
+    #images {
+        column-count: 3;
+        column-gap: 0;
     }
 
 }
