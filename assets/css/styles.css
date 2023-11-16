@@ -105,7 +105,7 @@ nav {
 main {
     background-color: #F5F5DC;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 57px;
     color: #000000;
 }
 
@@ -240,6 +240,11 @@ hr {
 /* Gallery page */
 #gallery-main {
     background-color: #004225;
+}
+
+#gallery h2 {
+    background-color: #F5F5DC;
+    
 }
 
 #images img {
