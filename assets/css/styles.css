@@ -379,6 +379,23 @@ footer {
 /* Media query for medium screens */
 @media screen and (min-width: 992px) {
 
+    /* Main Page styling */
+    #introduction {
+            width: 55%;
+            margin-left: auto;
+            margin-right: auto;
+    
+        }
+
+    #early-life-link,
+    #professional-link,
+    #international-link {
+        width: 50%;
+        border: none;
+
+    }
+
+    /* Feedback page styling */
     #feedback {
         background-position: center;
         position: relative;
@@ -413,7 +430,7 @@ footer {
 /* Media query for large screens */
 @media screen and (min-width: 1200px) {
     #introduction {
-        width: 70%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
 
@@ -437,7 +454,7 @@ footer {
     #early-life-link,
     #professional-link,
     #international-link {
-        width: 60%;
+        width: 50%;
         border: none;
     }
 
