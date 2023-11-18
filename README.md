@@ -1,39 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Siya Kolisi - A Rise To Glory
 
-Welcome,
+The Siya Kolisi website is designed to provide a look at the career of the most unlikely, yet most successful and inspirational leader of the Springbok rugby team who led the team to winning two back-to-back rugby World Cup championships.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website on a range of devices](Documentation/Responsive_ScreenShot.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+[View the project website on Github Pages](https://jayleighton.github.io/siya-kolisi-pp1/index.html)
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Contents
 
 ---
 
-Happy coding!
+## User Experience
+
+## Design
+
+### Colour Palette
+
+![Project Colour Palette](Documentation/Color-Palette_Color-Hunt.png)
+
+The website uses a color palette which fits the Sprinbok colours of Green & Gold.
+The colour palette was obtained from [Color Hunt](https://colorhunt.co)
+
+### Wireframes
+
+Wireframes were created for Mobile and Desktop displays.
+
+- [Wireframe Export](Documentation/Siya%20Kolisi%20PP1%20Wireframes.pdf)
+
+### Features
+
+### Typography
+
+Google Fonts was used to provide the sans-serif fonts as follows:
+
+- Oswald is used for headings and titles
+- Lato is used for the rest of the body of the website
+
+### Accessibility
+
+---
+
+## Technology Stack
+
+### Languages Used
+
+The following languages were used to create this website:
+
+- HTML
+- CSS
+
+### Frameworks and Programs Used
+
+- Git for version control
+- Github - Used to store and save the files for the website
+- [Balsamiq](https://balsamiq.com/) - For creating Wireframes
+- [Code Anywhere](https://app.codeanywhere.com/) - Used as a remote development environment
+- [Google Fonts](https://fonts.google.com/) - Used to import the selected fonts
+- [Font Awesome](https://fontawesome.com/) - Used for the icons on the website
+- [Free Favicon](https://freefavicon.com/) - Used for the Favicon on the web pages
+- Google Dev Tools - Used for troubleshooting HTML and CSS
+- [Am I Responsive](https://ui.dev/amiresponsive) - To test the responsitivity of the website
+
+## Deployment & Local Development
+
+### Github Pages Deployment
+
+Github Pages was used to deploy the live website. The instructions follow below:
+
+1. Log in to Github
+2. Find the respository for the project
+3. Click on the Settings link
+4. Select Pages from the tree menu
+5. Under the source option, select Deploy from a branch
+6. In the Branch section, select the relevant branch
+7. Click Save
+8. The URL for the live site is displayed at the top of the pages section
+
+### Local Development
+
+#### How to fork the repository
+
+To fork the Siya Kolisi Repository:
+
+1. Log in tgo Github
+2. Go to the repository for this website, jayleighton/siya-kolisi-pp1
+3. Select Fork at the top of the screen
+
+#### How to clone the repository
+
+To Clone the Siya Kolisi website respository:
+
+1. Log in to Github
+2. Got to the repository for this website, jayleighton/siya-kolisi-pp1
+3. Click on the Code button at the top right of the screen and select HTTPS, SSH, or GitHub CLI
+4. Copy the link
+5. Open the terminal on your code editor in the directory where the project needs to be cloned
+6. Enter 'git clone' into the terminal and pase the Github link
+7. Press enter to clone the repository
+
+## Testing
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all of the pages.
+
+- [Index Page](Documentation/Testing/index-page-html.png)
+- [Career Information Page](Documentation/Testing/Career-info-page-html.png)
+- [Gallery Page](Documentation/Testing/gallery-page-html.png)
+- [Feedback Page](Documentation/Testing/feedback-page-html.png)
+
+The W3C jigsaw validator was used to validate the css in the styles.css file.
+
+- [Style Sheet](Documentation/Testing/style-sheet-validation.png)
+
+### Resolved Bugs
+
+1. Reduced navbar links for Early Life, Professional Career, & International Career to one link for Career Info
+2. Added three images on the index page with anchors to the sections for Early Life, Profession & Internaltion Career
+3. Career Page image was blurry on larger screens, replaced with higher resolution image
+4. Navbar margin spacing was incorrect causing the navbar to cover elements on certain pages
+
+### Known Bugs
+
+1.  The join mailing list feature currently does not subscribe the user to any form of mailing list. Submitting the form only validates the form input.
+
+### User Story Testing
+
+### Performance and Accessibility Testing
+
+Lighthouse was used to perform testing on all pages within Chrome Development Tools. The results follow below:
+
+- [Index Page](Documentation/Testing/lighthouse-index.png)
+- [Career Info Page](Documentation/Testing/lighthouse-career-info.png)
+- [Gallery Page](Documentation/Testing/lighthouse-gallery-page.png)
+- [Feedback Page](Documentation/Testing/lighthouse-feedback-page.png)
+
+### Testing Process
+
+## Credits
+
+### Code Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
