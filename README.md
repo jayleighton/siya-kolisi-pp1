@@ -12,6 +12,8 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 
 ## User Experience
 
+### User Stories
+
 ## Design
 
 ### Colour Palette
@@ -21,6 +23,12 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 The website uses a color palette which fits the Sprinbok colours of Green & Gold.
 The colour palette was obtained from [Color Hunt](https://colorhunt.co)
 
+### Imagery
+
+The imagery on the site is intended to show the Springbok rugby captain during the various stages of his career from his early school clubs through to his international career.
+
+All of the sources of the images have been credited in the credit section of this document.
+
 ### Wireframes
 
 Wireframes were created for Mobile and Desktop displays.
@@ -28,6 +36,24 @@ Wireframes were created for Mobile and Desktop displays.
 - [Wireframe Export](Documentation/Siya%20Kolisi%20PP1%20Wireframes.pdf)
 
 ### Features
+
+#### Index Page
+
+- The index page provides the user with an introduction to the subject along with links to the relevant sections of the Career info page
+
+#### Career Information Page
+
+- The Career information page offers additional information on each of the stages in the career of Siya Kolisi
+
+#### Gallery Page
+
+- The galley page displays a number of images relating to the Springbok rugby captain.
+- The gallery page is responsive and adjusts the number of image columns based on the viewport width
+
+#### Feedback Page
+
+- The feedback page offers the user an opportunity to provide any feedback or comments they wish to provide.
+- The user is also able to sign up for a mailing list to receive updates when the page is updated
 
 ### Typography
 
@@ -38,9 +64,16 @@ Google Fonts was used to provide the sans-serif fonts as follows:
 
 ### Accessibility
 
+Great care has been taken in the design of the website to ensure that it is as accessible as possible.
+The following has been included in the website with this in mind:
+
+- Use of semantic HTML
+- Descriptive captions on all of the images
+- Ensuring sufficient colour contracts with the selected colour palette
+
 ---
 
-## Technology Stack
+## Technology Stack Used
 
 ### Languages Used
 
@@ -49,7 +82,7 @@ The following languages were used to create this website:
 - HTML
 - CSS
 
-### Frameworks and Programs Used
+### Frameworks, Libraries & Programs Used
 
 - Git for version control
 - Github - Used to store and save the files for the website
@@ -100,6 +133,12 @@ To Clone the Siya Kolisi website respository:
 
 ## Testing
 
+- Testing has been completed throughout the development process to ensure that all expected functionality and interactivity is working correctly before moving on to the next section of the website.
+
+- Validation of the HTML code has also been completed as each page was completed.
+
+- CSS Validation has been completed at the end of the building process.
+
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all of the pages.
@@ -143,6 +182,40 @@ Lighthouse was used to perform testing on all pages within Chrome Development To
 
 ### Content
 
+While none of the information on the website was directly copied from any source, the factual information was obtained from [Wikipedia](https://en.wikipedia.org/wiki/Siya_Kolisi)
+
 ### Media
+
+#### Index Page
+
+- [Cover Image](https://resources.worldrugby-rims.pulselive.com/photo-resources/worldrugby/photo/2023/10/28/1692d2e8-e899-42cd-ac28-b0c843ece5de/1762091396.jpg?width=1680)
+
+* [Early Life Image](https://media.licdn.com/dms/image/C4E12AQFyfOdv304KMg/article-cover_image-shrink_720_1280/0/1528786236122?e=2147483647&v=beta&t=z5J15QWcpEY6ZAxwShsfkj6-9PDyFDe5AIIYaYhORQk)
+* [Professional Carreer Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
+* [International Career Image]()
+
+#### Career Information Page
+
+- [Cover Image](https://lh3.googleusercontent.com/qHzGEbJ2ZBq_rAj1sgCbgZJV4peNCWWA-YQZzKwxo2-v5MjcAWhYdRzzUUJ09CXNbIPqhd6JqAWAglLax6cQhF7N3U-nkUKKzxEq9xMPVopKVA=s1200)
+- [Early Life Image](https://www.telegraph.co.uk/content/dam/rugby-union/2018/06/07/TELEMMGLPICT000165675713_trans_NvBQzQNjv4Bq-wioWl5aH7fAEJ8IWJw2Y29B1LEDEnWrF26oEaqVPuY.jpeg?imwidth=480)
+- [Professional Career Image](https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_437,w_700/d78uzlmlcg6vgeifzo1v)
+- [International Career Image](https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F0e9d011a-32cf-11ea-81b4-81217bc4782e.jpg?crop=1500%2C1000%2C0%2C0)
+
+#### Gallery Page
+
+- [Gallery Image 1](https://static.independent.co.uk/2023/10/29/20/newFile.jpg)
+- [Gallery Image 2](https://m0.sportsjoe.ie/wp-content/uploads/2023/09/24123543/GettyImages-1685062477.jpg)
+- [Gallery Image 3](https://e0.365dm.com/19/07/2048x1152/skysports-siya-kolisi-south-africa_4724413.jpg)
+- [Gallery Imag 4](https://ichef.bbci.co.uk/news/1024/branded_sport/996D/production/_101777293_kolisi_getty.jpg)
+- [Gallery Image 5](https://www.sarugby.co.za/media/znli1c3y/231026-siya-kolisi-springboks.jpg?anchor=center&mode=crop&width=945&height=472&rnd=133428724074870000)
+- [Gallery Image 6](https://i.guim.co.uk/img/media/978694f52e2a1192b5decb46c15c4d3c6a85ec3f/0_0_3511_2107/master/3511.jpg?width=1200&quality=85&auto=format&fit=max&s=066cbe453b18e26b7f0d30a8d5ffa3c4)
+- [Gallery Image 7](https://www.sarugby.co.za/media/anvpqgbs/190905-pieter-steph-du-toit-springboks-50th-test.jpg?anchor=center&mode=crop&width=945&height=472&rnd=132380793134700000)
+- [Gallery Image 8](https://www.springboks.rugby/media/gsgiloev/230808-siya-kolisi-springboks-rwc.jpg?anchor=center&mode=crop&width=945&height=472&rnd=133365612807730000)
+- [Gallery Image 9](https://risesport.co.za/wp-content/uploads/2023/10/IMG_1262-1024x683.jpeg)
+- [Gallery Image 10](https://images.ps-aws.com/c?url=https%3A%2F%2Fd3gbf3ykm8gp5c.cloudfront.net%2Fcontent%2Fuploads%2F2023%2F11%2F13162528%2FFrances-Antoine-Dupont-challenges-for-the-ball-with-South-Africas-Siya-Kolisi-during-the-Rugby-World-Cup-quarterfinal-1200x630.jpg)
+
+#### Feedback Page
+
+- [Background Image](https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F0e9d011a-32cf-11ea-81b4-81217bc4782e.jpg?crop=1500%2C1000%2C0%2C0)
 
 ### Acknowledgements
