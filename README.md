@@ -14,6 +14,10 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 
 ### User Stories
 
+#### First Time Visitor Goals
+
+#### Returning Visitor Goals
+
 ## Design
 
 ### Colour Palette
@@ -189,10 +193,9 @@ While none of the information on the website was directly copied from any source
 #### Index Page
 
 - [Cover Image](https://resources.worldrugby-rims.pulselive.com/photo-resources/worldrugby/photo/2023/10/28/1692d2e8-e899-42cd-ac28-b0c843ece5de/1762091396.jpg?width=1680)
-
-* [Early Life Image](https://media.licdn.com/dms/image/C4E12AQFyfOdv304KMg/article-cover_image-shrink_720_1280/0/1528786236122?e=2147483647&v=beta&t=z5J15QWcpEY6ZAxwShsfkj6-9PDyFDe5AIIYaYhORQk)
-* [Professional Carreer Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
-* [International Career Image](https://cdn.24.co.za/files/Cms/General/d/11614/e40da41a61cd4515a1ee2a34b7180cd7.jpg)
+- [Early Life Image](https://media.licdn.com/dms/image/C4E12AQFyfOdv304KMg/article-cover_image-shrink_720_1280/0/1528786236122?e=2147483647&v=beta&t=z5J15QWcpEY6ZAxwShsfkj6-9PDyFDe5AIIYaYhORQk)
+- [Professional Carreer Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
+- [International Career Image](https://cdn.24.co.za/files/Cms/General/d/11614/e40da41a61cd4515a1ee2a34b7180cd7.jpg)
 
 #### Career Information Page
 
