@@ -8,15 +8,77 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 
 ## Contents
 
+- [User Experience](#user-experience-ux)
+
+  - [User Stories](#user-stories)
+
+- [Design](#design)
+
+  - [Colour Palette](#colour-palette)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Typograpyhy](#typography)
+
+- [Feature](#features)
+  - [General Features on Each Page](#general-features-on-each-page)
+    - [Index Page](#index-page)
+    - [Career Information Page](#career-information-page)
+    - [Gallery Page](#gallery-page)
+    - [Feedback Page](#feedback-page)
+  - [Accessibility](#accessibility)
+- [Technology Stack Used](#technology-stack-used)
+
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+- [Deployment & Local Development](#deployment--local-development)
+
+  - [Deployment](#github-pages-deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork-the-repository)
+    - [How to Clone](#how-to-clone-the-repository)
+
+- [Testing](#testing)
+
+  - [W3C Validator](#w3c-validator)
+  - [Resolved Bugs](#resolved-bugs)
+  - [Known Bugs](#known-bugs)
+
+- [User Story Testing](#user-story-testing)
+
+  - [Performance and Accessibility Testing](#performance-and-accessibility-testing)
+
+- [Credits](#credits)
+
+  - [Code Credits](#code-credits)
+  - [Content](#content)
+  - [Media](#media)
+
+    - [Index Page Media](#index-page-media)
+    - [Career Information Page Media](#career-information-page-media)
+    - [Gallery Page Media](#gallery-page-media)
+    - [Feedback Page Media](#feedback-page-media)
+
+  - [Acknowledgements](#acknowledgements)
+
 ---
 
-## User Experience
+## User Experience (UX)
 
 ### User Stories
 
 #### First Time Visitor Goals
 
+- To immediately understand the purpose and subject of the website
+- To be able to navigate the different sections of the website easily
+- To have a method of submitting feedback and register to get notifications of updates
+- To be able to use the website on any device regardless of viewport size
+- To have common navigation options on every page
+
 #### Returning Visitor Goals
+
+- To be able to provide additional feedback
+- To be able to de-register from the notification list
 
 ## Design
 
@@ -39,7 +101,16 @@ Wireframes were created for Mobile and Desktop displays.
 
 - [Wireframe Export](Documentation/Siya%20Kolisi%20PP1%20Wireframes.pdf)
 
-### Features
+### Typography
+
+Google Fonts was used to provide the sans-serif fonts as follows:
+
+- Merriweather is used for headings and titles
+- Quicksand is used for the rest of the body of the website
+
+## Features
+
+### General Features on Each Page
 
 #### Index Page
 
@@ -58,13 +129,6 @@ Wireframes were created for Mobile and Desktop displays.
 
 - The feedback page offers the user an opportunity to provide any feedback or comments they wish to provide.
 - The user is also able to sign up for a mailing list to receive updates when the page is updated
-
-### Typography
-
-Google Fonts was used to provide the sans-serif fonts as follows:
-
-- Merriweather is used for headings and titles
-- Quicksand is used for the rest of the body of the website
 
 ### Accessibility
 
@@ -167,7 +231,7 @@ The W3C jigsaw validator was used to validate the css in the styles.css file.
 
 1.  The join mailing list feature currently does not subscribe the user to any form of mailing list. Submitting the form only validates the form input.
 
-### User Story Testing
+## User Story Testing
 
 ### Performance and Accessibility Testing
 
@@ -177,8 +241,6 @@ Lighthouse was used to perform testing on all pages within Chrome Development To
 - [Career Info Page](Documentation/Testing/lighthouse-career-info.png)
 - [Gallery Page](Documentation/Testing/lighthouse-gallery-page.png)
 - [Feedback Page](Documentation/Testing/lighthouse-feedback-page.png)
-
-### Testing Process
 
 ## Credits
 
@@ -195,21 +257,21 @@ While none of the information on the website was directly copied from any source
 
 ### Media
 
-#### Index Page
+#### Index Page Media
 
 - [Cover Image](https://resources.worldrugby-rims.pulselive.com/photo-resources/worldrugby/photo/2023/10/28/1692d2e8-e899-42cd-ac28-b0c843ece5de/1762091396.jpg?width=1680)
 - [Early Life Image](https://media.licdn.com/dms/image/C4E12AQFyfOdv304KMg/article-cover_image-shrink_720_1280/0/1528786236122?e=2147483647&v=beta&t=z5J15QWcpEY6ZAxwShsfkj6-9PDyFDe5AIIYaYhORQk)
 - [Professional Carreer Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
 - [International Career Image](https://cdn.24.co.za/files/Cms/General/d/11614/e40da41a61cd4515a1ee2a34b7180cd7.jpg)
 
-#### Career Information Page
+#### Career Information Page Media
 
 - [Cover Image](https://lh3.googleusercontent.com/qHzGEbJ2ZBq_rAj1sgCbgZJV4peNCWWA-YQZzKwxo2-v5MjcAWhYdRzzUUJ09CXNbIPqhd6JqAWAglLax6cQhF7N3U-nkUKKzxEq9xMPVopKVA=s1200)
 - [Early Life Image](https://www.telegraph.co.uk/content/dam/rugby-union/2018/06/07/TELEMMGLPICT000165675713_trans_NvBQzQNjv4Bq-wioWl5aH7fAEJ8IWJw2Y29B1LEDEnWrF26oEaqVPuY.jpeg?imwidth=480)
 - [Professional Career Image](https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_437,w_700/d78uzlmlcg6vgeifzo1v)
 - [International Career Image](https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F0e9d011a-32cf-11ea-81b4-81217bc4782e.jpg?crop=1500%2C1000%2C0%2C0)
 
-#### Gallery Page
+#### Gallery Page Media
 
 - [Gallery Image 1](https://static.independent.co.uk/2023/10/29/20/newFile.jpg)
 - [Gallery Image 2](https://m0.sportsjoe.ie/wp-content/uploads/2023/09/24123543/GettyImages-1685062477.jpg)
@@ -222,7 +284,7 @@ While none of the information on the website was directly copied from any source
 - [Gallery Image 9](https://risesport.co.za/wp-content/uploads/2023/10/IMG_1262-1024x683.jpeg)
 - [Gallery Image 10](https://images.ps-aws.com/c?url=https%3A%2F%2Fd3gbf3ykm8gp5c.cloudfront.net%2Fcontent%2Fuploads%2F2023%2F11%2F13162528%2FFrances-Antoine-Dupont-challenges-for-the-ball-with-South-Africas-Siya-Kolisi-during-the-Rugby-World-Cup-quarterfinal-1200x630.jpg)
 
-#### Feedback Page
+#### Feedback Page Media
 
 - [Background Image](https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F0e9d011a-32cf-11ea-81b4-81217bc4782e.jpg?crop=1500%2C1000%2C0%2C0)
 
