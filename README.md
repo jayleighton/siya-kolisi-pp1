@@ -63,8 +63,8 @@ Wireframes were created for Mobile and Desktop displays.
 
 Google Fonts was used to provide the sans-serif fonts as follows:
 
-- Oswald is used for headings and titles
-- Lato is used for the rest of the body of the website
+- Merriweather is used for headings and titles
+- Quicksand is used for the rest of the body of the website
 
 ### Accessibility
 
@@ -183,6 +183,11 @@ Lighthouse was used to perform testing on all pages within Chrome Development To
 ## Credits
 
 ### Code Credits
+
+- Code Institute
+  - Navbar styling and interactivity for smaller screens
+  - Layout of columns on the gallery page
+  * Hover effect on navbar links and achor tags
 
 ### Content
 
