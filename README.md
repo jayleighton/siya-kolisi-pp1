@@ -113,7 +113,7 @@ Google Fonts was used to provide the sans-serif fonts as follows:
 #### Index Page
 
 - The index page provides the user with an introduction to the subject along with links to the relevant sections of the Career info page
-- [Index Page Feature Screen Shot](documentation/features/index-page-features.png){height=200 width=100}
+- [Index Page Feature Screen Shot](documentation/features/index-page-features.png)
 
 #### Career Information Page
 
