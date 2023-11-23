@@ -113,23 +113,24 @@ Google Fonts was used to provide the sans-serif fonts as follows:
 #### Index Page
 
 - The index page provides the user with an introduction to the subject along with links to the relevant sections of the Career info page
+- [Index Page Feature Screen Shot](documentation/features/index-page-features.png){height=200 width=100}
 
 #### Career Information Page
 
 - The Career information page offers additional information on each of the stages in the career of Siya Kolisi
-  ![Career Info Page Features](documentation/features/career-info-page-features.png)
+- [Career Info Page Features Screen Shot](documentation/features/career-info-page-features.png)
 
 #### Gallery Page
 
 - The galley page displays a number of images relating to the Springbok rugby captain.
 - The gallery page is responsive and adjusts the number of image columns based on the viewport width
-  ![Gallery Page Features](documentation/features/gallery-page-features.png)
+- [Gallery Page Features Screen Shot](documentation/features/gallery-page-features.png)
 
 #### Feedback Page
 
 - The feedback page offers the user an opportunity to provide any feedback or comments they wish to provide.
 - The user is also able to sign up for a mailing list to receive updates when the page is updated
-  ![Feedback Page Features](documentation/features/feedback-page-features.png)
+- [Feedback Page Features Screen Shot](documentation/features/feedback-page-features.png)
 
 ### Accessibility
 
