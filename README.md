@@ -17,7 +17,7 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
   - [Colour Palette](#colour-palette)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
-  - [Typograpyhy](#typography)
+  - [Typography](#typography)
 
 - [Feature](#features)
   - [General Features on Each Page](#general-features-on-each-page)
@@ -84,7 +84,7 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 
 ![Project Colour Palette](documentation/color-palette_color-hunt.png)
 
-The website uses a color palette which fits the Sprinbok colours of Green & Gold.
+The website uses a color palette which fits the Springbok colours of Green & Gold.
 The colour palette was obtained from [Color Hunt](https://colorhunt.co)
 
 ### Imagery
@@ -158,7 +158,7 @@ The following languages were used to create this website:
 - [Font Awesome](https://fontawesome.com/) - Used for the icons on the website
 - [Free Favicon](https://freefavicon.com/) - Used for the Favicon on the web pages
 - Google Dev Tools - Used for troubleshooting HTML and CSS
-- [Am I Responsive](https://ui.dev/amiresponsive) - To test the responsitivity of the website
+- [Am I Responsive](https://ui.dev/amiresponsive) - To test the responsivity of the website
 
 ## Deployment & Local Development
 
@@ -167,7 +167,7 @@ The following languages were used to create this website:
 Github Pages was used to deploy the live website. The instructions follow below:
 
 1. Log in to Github
-2. Find the respository for the project
+2. Find the repository for the project
 3. Click on the Settings link
 4. Select Pages from the tree menu
 5. Under the source option, select Deploy from a branch
@@ -187,14 +187,14 @@ To fork the Siya Kolisi Repository:
 
 #### How to clone the repository
 
-To Clone the Siya Kolisi website respository:
+To Clone the Siya Kolisi website repository:
 
 1. Log in to Github
 2. Got to the repository for this website, jayleighton/siya-kolisi-pp1
 3. Click on the Code button at the top right of the screen and select HTTPS, SSH, or GitHub CLI
 4. Copy the link
 5. Open the terminal on your code editor in the directory where the project needs to be cloned
-6. Enter 'git clone' into the terminal and pase the Github link
+6. Enter 'git clone' into the terminal and paste the Github link
 7. Press enter to clone the repository
 
 ## Testing
@@ -221,7 +221,7 @@ The W3C jigsaw validator was used to validate the css in the styles.css file.
 ### Resolved Bugs
 
 1. Reduced navbar links for Early Life, Professional Career, & International Career to one link for Career Info
-2. Added three images on the index page with anchors to the sections for Early Life, Profession & Internaltion Career
+2. Added three images on the index page with anchors to the sections for Early Life, Profession & International Career
 3. Career Page image was blurry on larger screens, replaced with higher resolution image
 4. Navbar margin spacing was incorrect causing the navbar to cover elements on certain pages
 
@@ -251,7 +251,7 @@ Lighthouse was used to perform testing on all pages within Chrome Development To
 - Code Institute
   - Navbar styling and interactivity for smaller screens
   - Layout of columns on the gallery page
-  * Hover effect on navbar links and achor tags
+  * Hover effect on navbar links and anchor tags
 
 ### Content
 
@@ -263,7 +263,7 @@ While none of the information on the website was directly copied from any source
 
 - [Cover Image](https://resources.worldrugby-rims.pulselive.com/photo-resources/worldrugby/photo/2023/10/28/1692d2e8-e899-42cd-ac28-b0c843ece5de/1762091396.jpg?width=1680)
 - [Early Life Image](https://media.licdn.com/dms/image/C4E12AQFyfOdv304KMg/article-cover_image-shrink_720_1280/0/1528786236122?e=2147483647&v=beta&t=z5J15QWcpEY6ZAxwShsfkj6-9PDyFDe5AIIYaYhORQk)
-- [Professional Carreer Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
+- [Professional Career Image](https://lh3.googleusercontent.com/WVf8rdFIoY__tDKDER1uOPH9kRyaI0Y8FjnHaUgHxKi1XNtrakDFu6t_3XmLkJDbBPju2p49ZNKBlhQa-NCVq6yG5DE_Tl4T6hc=s1500-pp)
 - [International Career Image](https://cdn.24.co.za/files/Cms/General/d/11614/e40da41a61cd4515a1ee2a34b7180cd7.jpg)
 
 #### Career Information Page Media
@@ -278,7 +278,7 @@ While none of the information on the website was directly copied from any source
 - [Gallery Image 1](https://static.independent.co.uk/2023/10/29/20/newFile.jpg)
 - [Gallery Image 2](https://m0.sportsjoe.ie/wp-content/uploads/2023/09/24123543/GettyImages-1685062477.jpg)
 - [Gallery Image 3](https://e0.365dm.com/19/07/2048x1152/skysports-siya-kolisi-south-africa_4724413.jpg)
-- [Gallery Imag 4](https://ichef.bbci.co.uk/news/1024/branded_sport/996D/production/_101777293_kolisi_getty.jpg)
+- [Gallery Image 4](https://ichef.bbci.co.uk/news/1024/branded_sport/996D/production/_101777293_kolisi_getty.jpg)
 - [Gallery Image 5](https://www.sarugby.co.za/media/znli1c3y/231026-siya-kolisi-springboks.jpg?anchor=center&mode=crop&width=945&height=472&rnd=133428724074870000)
 - [Gallery Image 6](https://i.guim.co.uk/img/media/978694f52e2a1192b5decb46c15c4d3c6a85ec3f/0_0_3511_2107/master/3511.jpg?width=1200&quality=85&auto=format&fit=max&s=066cbe453b18e26b7f0d30a8d5ffa3c4)
 - [Gallery Image 7](https://www.sarugby.co.za/media/anvpqgbs/190905-pieter-steph-du-toit-springboks-50th-test.jpg?anchor=center&mode=crop&width=945&height=472&rnd=132380793134700000)
