@@ -2,7 +2,7 @@
 
 The Siya Kolisi website is designed to provide a look at the career of the most unlikely, yet most successful and inspirational leader of the Springbok rugby team who led the team to winning two back-to-back rugby World Cup championships.
 
-![Website on a range of devices](Documentation/Responsive_ScreenShot.png)
+![Website on a range of devices](documentation/responsive_screenshot.png)
 
 [View the project website on Github Pages](https://jayleighton.github.io/siya-kolisi-pp1/index.html)
 
@@ -59,8 +59,6 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
     - [Gallery Page Media](#gallery-page-media)
     - [Feedback Page Media](#feedback-page-media)
 
-  - [Acknowledgements](#acknowledgements)
-
 ---
 
 ## User Experience (UX)
@@ -84,7 +82,7 @@ The Siya Kolisi website is designed to provide a look at the career of the most 
 
 ### Colour Palette
 
-![Project Colour Palette](Documentation/Color-Palette_Color-Hunt.png)
+![Project Colour Palette](documentation/color-palette_color-hunt.png)
 
 The website uses a color palette which fits the Sprinbok colours of Green & Gold.
 The colour palette was obtained from [Color Hunt](https://colorhunt.co)
@@ -99,7 +97,7 @@ All of the sources of the images have been credited in the credit section of thi
 
 Wireframes were created for Mobile and Desktop displays.
 
-- [Wireframe Export](Documentation/Siya%20Kolisi%20PP1%20Wireframes.pdf)
+- [Wireframe Export](documentation/siya-kolisi-wireframes.pdf)
 
 ### Typography
 
@@ -183,7 +181,7 @@ Github Pages was used to deploy the live website. The instructions follow below:
 
 To fork the Siya Kolisi Repository:
 
-1. Log in tgo Github
+1. Log in to Github
 2. Go to the repository for this website, jayleighton/siya-kolisi-pp1
 3. Select Fork at the top of the screen
 
@@ -211,14 +209,14 @@ To Clone the Siya Kolisi website respository:
 
 The W3C validator was used to validate the HTML on all of the pages.
 
-- [Index Page](Documentation/Testing/index-page-html.png)
-- [Career Information Page](Documentation/Testing/Career-info-page-html.png)
-- [Gallery Page](Documentation/Testing/gallery-page-html.png)
-- [Feedback Page](Documentation/Testing/feedback-page-html.png)
+- [Index Page](documentation/testing/index-page-html.png)
+- [Career Information Page](documentation/testing/career-info-page-html.png)
+- [Gallery Page](documentation/testing/gallery-page-html.png)
+- [Feedback Page](documentation/testing/feedback-page-html.png)
 
 The W3C jigsaw validator was used to validate the css in the styles.css file.
 
-- [Style Sheet](Documentation/Testing/style-sheet-validation.png)
+- [Style Sheet](documentation/testing/style-sheet-validation.png)
 
 ### Resolved Bugs
 
@@ -235,12 +233,16 @@ The W3C jigsaw validator was used to validate the css in the styles.css file.
 
 ### Performance and Accessibility Testing
 
+- Tested that all links work as expected
+- Tested that external links open in a new browser tab
+- Test on a range of devices from mobile to large 1440p displays
+
 Lighthouse was used to perform testing on all pages within Chrome Development Tools. The results follow below:
 
-- [Index Page](Documentation/Testing/lighthouse-index.png)
-- [Career Info Page](Documentation/Testing/lighthouse-career-info.png)
-- [Gallery Page](Documentation/Testing/lighthouse-gallery-page.png)
-- [Feedback Page](Documentation/Testing/lighthouse-feedback-page.png)
+- [Index Page](documentation/testing/lighthouse-index.png)
+- [Career Info Page](documentation/testing/lighthouse-career-info.png)
+- [Gallery Page](documentation/testing/lighthouse-gallery-page.png)
+- [Feedback Page](documentation/testing/lighthouse-feedback-page.png)
 
 ## Credits
 
@@ -287,5 +289,3 @@ While none of the information on the website was directly copied from any source
 #### Feedback Page Media
 
 - [Background Image](https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F0e9d011a-32cf-11ea-81b4-81217bc4782e.jpg?crop=1500%2C1000%2C0%2C0)
-
-### Acknowledgements
