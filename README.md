@@ -117,11 +117,13 @@ Google Fonts was used to provide the sans-serif fonts as follows:
 #### Career Information Page
 
 - The Career information page offers additional information on each of the stages in the career of Siya Kolisi
+  ![Career Info Page Features](documentation/features/career-info-page-features.png)
 
 #### Gallery Page
 
 - The galley page displays a number of images relating to the Springbok rugby captain.
 - The gallery page is responsive and adjusts the number of image columns based on the viewport width
+  ![Gallery Page Features](documentation/features/gallery-page-features.png)
 
 #### Feedback Page
 
@@ -224,6 +226,9 @@ The W3C jigsaw validator was used to validate the css in the styles.css file.
 2. Added three images on the index page with anchors to the sections for Early Life, Profession & International Career
 3. Career Page image was blurry on larger screens, replaced with higher resolution image
 4. Navbar margin spacing was incorrect causing the navbar to cover elements on certain pages
+5. Professional Career Information image not displaying due to name change
+6. Comments section not show correctly due to closing tag in incorrect location
+7. Feedback page allowed submission with no comments entered.
 
 ### Known Bugs
 
