@@ -129,6 +129,7 @@ Google Fonts was used to provide the sans-serif fonts as follows:
 
 - The feedback page offers the user an opportunity to provide any feedback or comments they wish to provide.
 - The user is also able to sign up for a mailing list to receive updates when the page is updated
+  ![Feedback Page Features](documentation/features/feedback-page-features.png)
 
 ### Accessibility
 
